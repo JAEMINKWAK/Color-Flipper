@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-size: 3em;
+  padding: 25px;
+  border: 1px solid #000;
+  border-radius: 25px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 10px;
+  background-color: #000;
+  font-size: 1em;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  cursor: pointer;
+}
+.color {
+  font-size: 1em;
+}
